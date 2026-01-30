@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     AWS_DEFAULT_REGION: ap-south-1
-    AWS_ACCOUNT_ID: 249746593559
+    # AWS_ACCOUNT_ID: 249746593559
     IMAGE_REPO_NAME: kyc
     IMAGE_TAG: latest
 
