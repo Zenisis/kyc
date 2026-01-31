@@ -35,7 +35,7 @@ env:
     AWS_DEFAULT_REGION: ap-south-1
     AWS_ACCOUNT_ID: 249746593559
     IMAGE_REPO_NAME: mobile_app/kyc
-    IMAGE_TAG: latest
+    IMAGE_TAG: $CODEBUILD_RESOLVED_SOURCE_VERSION
 
 phases:
   pre_build:
